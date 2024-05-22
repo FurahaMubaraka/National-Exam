@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table
+{
+    /* background-color: rgba(26, 80, 80, 0.589); */
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 1px auto;
+    width: 75%;
+    text-align: left;
+    height: 150px;
+    border-style: none;
+}
+table tr th
+{
+    font-size: 20px;
+    height: 45px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.596);
+    background-color: rgba(0, 0, 255, 0.352);
+}
+table tr:nth-child(odd) 
+{
+    background-color: rgba(59, 46, 46, 0.675);
+}
+table tr td
+{
+    font-size: 18px;
+}
+.button button
+{
+    background-color: rgb(36, 255, 40);
+    border: 1px soild green;
+    border-style: none;
+    width: 12%;
+    height: 60px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(3, 101, 50);
+    margin-left: 12.6%;
+}
+.goaw
+{
+    margin-top: -13%;
+}
+.update
+{
+    background-color: rgb(36, 255, 40);
+    width: 75%;
+    margin-left: 20px;
+    height: 35px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(16, 84, 0);
+    border-style: none;
+}
+.delete
+{
+    width: 75%;
+    height: 35px;
+    margin-left: 20px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 900;
+    color: rgb(101, 0, 0);
+    background-color: red;
+    border-style: none;
+}
